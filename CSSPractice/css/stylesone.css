@@ -1,0 +1,46 @@
+body {
+  background-color: #b3d4fc;
+}
+
+#title:hover {
+  color: red;
+}
+
+.subtitle {
+  color: blue;
+}
+
+#contact {
+  color: green;
+}
+
+li:first-child {
+  color: steelblue;
+}
+
+/*li:last-child {
+  color: red;
+}*/
+
+/*#google-link:link {
+  color: blue;
+}
+
+#google-link:visited {
+  color: red;
+}*/
+
+h2 + p {
+  color: blueviolet;
+}
+
+textarea ~ button {
+color: teal;
+}
+
+ul > li {
+  color: aqua;
+}
+ul li {
+  color: bisque;
+}
